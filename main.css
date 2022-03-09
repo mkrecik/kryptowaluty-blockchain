@@ -145,7 +145,7 @@ input, select, textarea {
         color: rgb(193, 219, 217);
         text-shadow: 2px 2px rgb(24, 74, 69);
     }
-    h4 {
+    h4 h3 {
 		font-size: 1.25em;
 	}
 
@@ -2392,7 +2392,7 @@ input, select, textarea {
 			}
 
 			#nav li.current a {
-				background: #b1ddab;
+				background:  color: rgb(193, 219, 217);
 				color: #fff;
 			}
 
