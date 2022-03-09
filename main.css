@@ -140,7 +140,12 @@ input, select, textarea {
 				padding: 0 1.25em 0 1.25em;
 			}
 
-	h3, h4 {
+    h3{
+        font-size:1.4em;
+        color: rgb(193, 219, 217);
+        text-shadow: 2px 2px rgb(24, 74, 69);
+    }
+    h4 {
 		font-size: 1.25em;
 	}
 
@@ -211,6 +216,15 @@ input, select, textarea {
 		text-transform: uppercase;
 		color: #c1cac5;
 	}
+.widget{
+padding-bottom: 3em;
+}
+.defin {
+    padding-top: 3em;
+}
+.links{
+color=rgb(84, 143, 121)
+}
 
 /* Container */
 
@@ -3033,6 +3047,8 @@ input, select, textarea {
 			#main {
 				padding: 3em 0;
 			}
+        
+        }
 
 		/* Sidebar */
 
