@@ -198,6 +198,9 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 3em;
 	}
+    p  {
+        text-align: justify;
+    }
 
 /* Section/Article */
 
@@ -221,7 +224,12 @@ input, select, textarea {
     }
     .defin {
         padding-top: 3em;
+        text-align: justify;
+        
+    .defin1 {
+        padding-top: 3em;
     }
+        
     .links{
         color=rgb(84, 143, 121);
         margin-left: 2px;
