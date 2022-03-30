@@ -140,7 +140,12 @@ input, select, textarea {
 				padding: 0 1.25em 0 1.25em;
 			}
 
-	h3, h4 {
+    .turq{
+        font-size:1.4em;
+        color: rgb(193, 219, 217);
+        text-shadow: 2px 2px rgb(24, 74, 69);
+    }
+    h4 h3 {
 		font-size: 1.25em;
 	}
 
@@ -193,6 +198,9 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 3em;
 	}
+    p  {
+        text-align: justify;
+    }
 
 /* Section/Article */
 
@@ -210,7 +218,22 @@ input, select, textarea {
 		font-weight: 700;
 		text-transform: uppercase;
 		color: #c1cac5;
-	}
+        }
+    .widget{
+        padding-bottom: 3em;
+    }
+    .defin {
+        margin-top: 4em;
+        text-align: justify;
+        
+    .defin1 {
+        padding-top: 3em;
+    }
+        
+    .links{
+        color=rgb(84, 143, 121);
+        margin-left: 2px;
+    }
 
 /* Container */
 
@@ -2257,42 +2280,7 @@ input, select, textarea {
 		margin: 0 0 0.5em 0;
 	}
 
-/* Icons */
 
-	.icon {
-		text-decoration: none;
-		position: relative;
-		text-decoration: none;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
-
-		.icon:before {
-			line-height: inherit;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
-		}
 
 /* Page Wrapper */
 
@@ -2412,8 +2400,8 @@ input, select, textarea {
 			}
 
 			#nav li.current a {
-				background: #b1ddab;
-				color: #fff;
+				background:  color: rgb(193, 219, 217);
+				color: rgb(24, 74, 69);
 			}
 
 	.dropotron {
@@ -2478,7 +2466,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -2533,14 +2521,14 @@ input, select, textarea {
 
 				#banner .content .button:active {
 					color: #fff;
-					border-color: #616763;
+					border-color: #b1ddab;
 				}
 
 /* Main */
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
+		
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
@@ -2823,7 +2811,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #b1ddab;
+						background: #e9967a;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -3068,6 +3056,8 @@ input, select, textarea {
 			#main {
 				padding: 3em 0;
 			}
+        
+        }
 
 		/* Sidebar */
 
